@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet y TV Digital - Cable a Tierra Virasoro</title>
+    <meta name="description" content="La conexión más rápida de Virasoro al mejor precio. Internet fibra óptica, TV digital, cámaras IP. Servicio técnico 24/7.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Cable a Tierra" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-arrow-left me-1"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#planes">Planes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tv-digital">TV Digital</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#camaras">Cámaras IP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="btn btn-primary nav-cta" href="#contratar">Contratar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">La conexión más rápida de Virasoro, al mejor precio</h1>
+                        <p class="hero-subtitle">Planes desde $17.200. Servicio técnico 24/7. Atención personalizada.</p>
+                        <div class="hero-buttons">
+                            <a href="https://wa.me/543756438933" class="btn btn-success btn-lg me-3" target="_blank">
+                                <i class="fab fa-whatsapp me-2"></i>WhatsApp
+                            </a>
+                            <a href="#contratar" class="btn btn-primary btn-lg">
+                                <i class="fas fa-edit me-2"></i>Quiero contratar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="images/hero_background.png" alt="Conexión de fibra óptica" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planes de Internet -->
+    <section id="planes" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Planes de Internet</h2>
+                    <p class="section-subtitle">Elige la velocidad perfecta para tu hogar o empresa</p>
+                </div>
+            </div>
+            
+            <!-- Tabs -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-6">
+                    <ul class="nav nav-pills nav-fill plan-tabs" id="planTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="fibra-tab" data-bs-toggle="pill" data-bs-target="#fibra" type="button" role="tab">
+                                <i class="fas fa-bolt me-2"></i>Fibra Óptica
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="wireless-tab" data-bs-toggle="pill" data-bs-target="#wireless" type="button" role="tab">
+                                <i class="fas fa-wifi me-2"></i>Inalámbrico
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="tab-content" id="planTabsContent">
+                <!-- Fibra Óptica -->
+                <div class="tab-pane fade show active" id="fibra" role="tabpanel">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="plan-card">
+                                <div class="plan-header">
+                                    <h4>100 MB</h4>
+                                    <div class="plan-price">$24.200</div>
+                                    <div class="plan-period">por mes</div>
+                                </div>
+                                <div class="plan-features">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Velocidad garantizada</li>
+                                        <li><i class="fas fa-check"></i> Instalación: $30.000</li>
+                                        <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                                    </ul>
+                                </div>
+                                <a href="#contratar" class="btn btn-outline-primary w-100">Contratar</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="plan-card featured">
+                                <div class="plan-badge">Más Popular</div>
+                                <div class="plan-header">
+                                    <h4>150 MB</h4>
+                                    <div class="plan-price">$29.200</div>
+                                    <div class="plan-period">por mes</div>
+                                </div>
+                                <div class="plan-features">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Velocidad garantizada</li>
+                                        <li><i class="fas fa-check"></i> Instalación: $30.000</li>
+                                        <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                                    </ul>
+                                </div>
+                                <a href="#contratar" class="btn btn-primary w-100">Contratar</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="plan-card">
+                                <div class="plan-header">
+                                    <h4>200 MB</h4>
+                                    <div class="plan-price">$37.000</div>
+                                    <div class="plan-period">por mes</div>
+                                </div>
+                                <div class="plan-features">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Velocidad garantizada</li>
+                                        <li><i class="fas fa-check"></i> Instalación: $30.000</li>
+                                        <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                                    </ul>
+                                </div>
+                                <a href="#contratar" class="btn btn-outline-primary w-100">Contratar</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="plan-card">
+                                <div class="plan-header">
+                                    <h4>300 MB</h4>
+                                    <div class="plan-price">$45.200</div>
+                                    <div class="plan-period">por mes</div>
+                                </div>
+                                <div class="plan-features">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Velocidad garantizada</li>
+                                        <li><i class="fas fa-check"></i> Instalación: $30.000</li>
+                                        <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                                    </ul>
+                                </div>
+                                <a href="#contratar" class="btn btn-outline-primary w-100">Contratar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inalámbrico -->
+                <div class="tab-pane fade" id="wireless" role="tabpanel">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="plan-card">
+                                <div class="plan-header">
+                                    <h4>2 MB</h4>
+                                    <div class="plan-price">$17.200</div>
+                                    <div class="plan-period">por mes</div>
+                                </div>
+                                <div class="plan-features">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Ideal para navegación</li>
+                                        <li><i class="fas fa-check"></i> Instalación: $20.000</li>
+                                        <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                                    </ul>
+                                </div>
+                                <a href="#contratar" class="btn btn-outline-primary w-100">Contratar</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="plan-card">
+                                <div class="plan-header">
+                                    <h4>4 MB</h4>
+                                    <div class="plan-price">$20.400</div>
+                                    <div class="plan-period">por mes</div>
+                                </div>
+                                <div class="plan-features">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Streaming básico</li>
+                                        <li><i class="fas fa-check"></i> Instalación: $20.000</li>
+                                        <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                                    </ul>
+                                </div>
+                                <a href="#contratar" class="btn btn-outline-primary w-100">Contratar</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="plan-card">
+                                <div class="plan-header">
+                                    <h4>6 MB</h4>
+                                    <div class="plan-price">$27.400</div>
+                                    <div class="plan-period">por mes</div>
+                                </div>
+                                <div class="plan-features">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Streaming HD</li>
+                                        <li><i class="fas fa-check"></i> Instalación: $20.000</li>
+                                        <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                                    </ul>
+                                </div>
+                                <a href="#contratar" class="btn btn-outline-primary w-100">Contratar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TV Digital -->
+    <section id="tv-digital" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <h2 class="section-title">CABLEAT TV</h2>
+                    <p class="section-subtitle">Entretenimiento para toda la familia</p>
+
+                    <div class="tv-plans">
+                        <div class="tv-plan-card mb-3 featured">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h5>Plan CABLEAT TV</h5>
+                                    <p class="mb-1">+90 canales</p>
+                                    <small class="text-muted">Disponible por APP y TV BOX</small>
+                                </div>
+                                <div class="text-end">
+                                    <div class="price" style="font-size:1rem;color:#2563EB">Consultá precio</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h6 class="mt-4 mb-3">Packs Adicionales</h6>
+                    <div class="additional-packs">
+                        <div class="pack-item">
+                            <span><i class="fas fa-futbol me-2 text-success"></i>Pack Fútbol</span>
+                            <span class="price">Consultá</span>
+                        </div>
+                        <div class="pack-item">
+                            <span><i class="fas fa-film me-2 text-primary"></i>HBO</span>
+                            <span class="price">Consultá</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 d-flex gap-3">
+                        <div class="text-center px-3 py-2 rounded" style="background:#EFF6FF;">
+                            <i class="fas fa-mobile-alt fa-lg text-primary mb-1 d-block"></i>
+                            <small class="fw-600 text-primary">APP</small>
+                        </div>
+                        <div class="text-center px-3 py-2 rounded" style="background:#EFF6FF;">
+                            <i class="fas fa-tv fa-lg text-primary mb-1 d-block"></i>
+                            <small class="fw-600 text-primary">TV BOX</small>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/543756438933?text=Hola,%20me%20interesa%20CABLEAT%20TV" class="btn btn-primary mt-4" target="_blank">
+                        Consultar por WhatsApp
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/family_watching_tv.png" alt="Familia viendo CABLEAT TV" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cámaras IP -->
+    <section id="camaras" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <img src="images/camera_app.png" alt="Cámaras IP y App" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title">Cámaras IP / Videovigilancia</h2>
+                    <p class="section-subtitle">Protege lo que más te importa</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h5>Seguridad 24/7</h5>
+                                <p>Monitoreo constante de tu hogar o negocio</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <div>
+                                <h5>App móvil incluida</h5>
+                                <p>Ve en tiempo real desde cualquier lugar</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-tools"></i>
+                            <div>
+                                <h5>Instalación profesional</h5>
+                                <p>Nuestros técnicos se encargan de todo</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-cloud"></i>
+                            <div>
+                                <h5>Almacenamiento en la nube</h5>
+                                <p>Tus grabaciones siempre seguras</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contratar" class="btn btn-primary btn-lg mt-3">Solicitar cotización</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Por qué elegirnos -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title text-white">¿Por qué elegirnos?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="why-choose-item text-center">
+                        <i class="fas fa-rocket fa-3x mb-3"></i>
+                        <h5>Conexión rápida y estable</h5>
+                        <p>La mejor velocidad de Virasoro con tecnología de punta</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="why-choose-item text-center">
+                        <i class="fas fa-dollar-sign fa-3x mb-3"></i>
+                        <h5>Mejor precio de la ciudad</h5>
+                        <p>Tarifas competitivas sin comprometer la calidad</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="why-choose-item text-center">
+                        <i class="fas fa-clock fa-3x mb-3"></i>
+                        <h5>Servicio técnico 24/7</h5>
+                        <p>Soporte técnico disponible las 24 horas del día</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="why-choose-item text-center">
+                        <i class="fas fa-user-friends fa-3x mb-3"></i>
+                        <h5>Atención real, sin bots</h5>
+                        <p>Hablás directamente con personas, atención personalizada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contratación -->
+    <section id="contratar" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form-wrapper">
+                        <h2 class="section-title text-center mb-4">Formulario de Contratación</h2>
+                        <p class="text-center mb-5">Completa tus datos y nos contactaremos contigo</p>
+                        
+                        <form id="contractForm" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="nombre" class="form-label">Nombre completo</label>
+                                    <input type="text" class="form-control" id="nombre" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="telefono" class="form-label">Teléfono</label>
+                                    <input type="tel" class="form-control" id="telefono" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="direccion" class="form-label">Dirección</label>
+                                <input type="text" class="form-control" id="direccion" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="servicio" class="form-label">Servicio deseado</label>
+                                <select class="form-select" id="servicio" required>
+                                    <option value="">Selecciona un servicio</option>
+                                    <option value="fibra-100">Internet Fibra Óptica 100MB</option>
+                                    <option value="fibra-150">Internet Fibra Óptica 150MB</option>
+                                    <option value="fibra-200">Internet Fibra Óptica 200MB</option>
+                                    <option value="fibra-300">Internet Fibra Óptica 300MB</option>
+                                    <option value="wireless-2">Internet Inalámbrico 2MB</option>
+                                    <option value="wireless-4">Internet Inalámbrico 4MB</option>
+                                    <option value="wireless-6">Internet Inalámbrico 6MB</option>
+                                    <option value="tv-basico">TV Digital Básico</option>
+                                    <option value="tv-full">TV Digital Full</option>
+                                    <option value="camaras">Cámaras IP / Videovigilancia</option>
+                                    <option value="combo">Combo (Internet + TV)</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje adicional (opcional)</label>
+                                <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-paper-plane me-2"></i>Quiero que me contacten
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto directo -->
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Contacto directo</h2>
+                    <p class="section-subtitle">Estamos aquí para ayudarte</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="contact-card text-center">
+                        <i class="fab fa-whatsapp fa-3x text-success mb-3"></i>
+                        <h5>WhatsApp</h5>
+                        <p>+54 3756 438933</p>
+                        <a href="https://wa.me/543756438933" class="btn btn-success" target="_blank">Escribir ahora</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="contact-card text-center">
+                        <i class="fab fa-instagram fa-3x text-primary mb-3"></i>
+                        <h5>Instagram</h5>
+                        <p>@cableatierrasrl</p>
+                        <a href="https://instagram.com/cableatierrasrl" class="btn btn-primary" target="_blank">Seguir</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="contact-card text-center">
+                        <i class="fas fa-clock fa-3x text-info mb-3"></i>
+                        <h5>Horarios de atención</h5>
+                        <p>Lunes a Viernes: 8:00 - 18:00<br>Sábados: 8:00 - 12:00</p>
+                        <p class="text-muted">Soporte técnico 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/logo.png" alt="Cable a Tierra" class="footer-logo mb-3">
+                    <p>La conexión más rápida de Virasoro al mejor precio. Internet, TV Digital y más.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Servicios</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#planes" class="text-light">Internet Fibra Óptica</a></li>
+                                <li><a href="#planes" class="text-light">Internet Inalámbrico</a></li>
+                                <li><a href="#tv-digital" class="text-light">TV Digital</a></li>
+                                <li><a href="#camaras" class="text-light">Cámaras IP</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Legal</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="politicas.html" class="text-light">Políticas de privacidad</a></li>
+                                <li><a href="terminos.html" class="text-light">Términos y condiciones</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 Cable a Tierra SRL. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="https://wa.me/543756438933" class="text-light me-3" target="_blank">
+                        <i class="fab fa-whatsapp fa-lg"></i>
+                    </a>
+                    <a href="https://instagram.com/cableatierrasrl" class="text-light" target="_blank">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div id="chatbot-widget" class="chatbot-widget">
+        <div class="chatbot-toggle" onclick="toggleChatbot()">
+            <i class="fas fa-comments"></i>
+        </div>
+        <div class="chatbot-window" id="chatbot-window">
+            <div class="chatbot-header">
+                <h6>Asistente Virtual</h6>
+                <button onclick="toggleChatbot()" class="btn-close btn-close-white"></button>
+            </div>
+            <div class="chatbot-body">
+                <div class="chatbot-message bot-message">
+                    ¡Hola! Soy tu asistente virtual. ¿En qué puedo ayudarte?
+                </div>
+                <div class="chatbot-options">
+                    <button class="chatbot-option" onclick="selectOption('planes')">Ver planes de internet</button>
+                    <button class="chatbot-option" onclick="selectOption('tv')">Información sobre TV Digital</button>
+                    <button class="chatbot-option" onclick="selectOption('camaras')">Cámaras de seguridad</button>
+                    <button class="chatbot-option" onclick="selectOption('contacto')">Hablar con un humano</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+
