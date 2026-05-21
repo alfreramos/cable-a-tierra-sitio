@@ -892,15 +892,12 @@ footer h6 {
 /* Banners de página (electricidad / solar) */
 .page-banner-wrap {
     width: 100%;
-    overflow: hidden;
     line-height: 0;
 }
 
 .page-banner {
     width: 100%;
-    height: clamp(160px, 28vw, 320px);
-    object-fit: cover;
-    object-position: center;
+    height: auto;
     display: block;
 }
 
@@ -911,15 +908,12 @@ footer h6 {
 
 .product-section-banner {
     width: 100%;
-    overflow: hidden;
     line-height: 0;
 }
 
 .product-section-banner img {
     width: 100%;
-    height: clamp(150px, 26vw, 300px);
-    object-fit: cover;
-    object-position: center;
+    height: auto;
     display: block;
     transition: transform 0.4s ease;
 }
