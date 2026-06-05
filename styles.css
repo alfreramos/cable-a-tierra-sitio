@@ -1130,6 +1130,13 @@ footer h6 {
     }
 }
 
+/* Instagram Section */
+.instagram-section {
+    padding: 80px 0;
+    background: #fff;
+    border-top: 1px solid #E5E7EB;
+}
+
 /* Próximamente badge */
 .proximamente-badge {
     display: inline-flex;
